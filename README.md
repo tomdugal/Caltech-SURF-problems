@@ -22,15 +22,15 @@ These reporter proteins are fluorophores with differing excitation and emission 
 
 There is a promoter sequence just upstream of the mRFP1 gene (bp 3261-3286):
 
-TTGACA    TAACAAGAT
+TTGACAATGTGAGCGAGTAACAAGAT
 
 Also in the plasmids is a lacI generator cassette. This contains biobricks B0034 (http://parts.igem.org/Part:BBa_B0034), a ribosome binding sequence (bp 3043-3054) and C0012 (http://parts.igem.org/Part:BBa_C0012), a coding region for the lacI repressor protein with an LVA degradation tail (bp 1948-3034).
 
-The promoter showed significant homology to the lacI binding sequence:
+The previously mentioned promoter shows significant homology to the lacI binding sequence:
 
-AATTGTGAGC  GGATAACAATT
+AAT**TGTGAGC**  GGA**TAACAA**TT
 
-This suggests that the promoter is a negative inducible promoter, regularly bound and repressed by lacI but induced in the presence of allolactose which binds lacI and prevents it binding the promoter.
+This suggests that the promoter is a negative inducible promoter; regularly bound and repressed by lacI but induced in the presence of allolactose which binds lacI and prevents it binding the promoter.
 
 nb. B0010, another biobrick (http://parts.igem.org/Part:BBa_B0010), a terminator, is also found in both plasmids at bp 5119-5194.
 
@@ -38,8 +38,8 @@ nb. B0010, another biobrick (http://parts.igem.org/Part:BBa_B0010), a terminator
 
 Sequence (5'->3')
 
-Forward primer: CTGAAGGTCGTCACTCCACC
-Reverse primer: TATTAGGAGCGGCGAAACCC
+Forward primer: CTGAAGGTCGTCACTCCACC (test DNA bp 3973-3992)
+Reverse primer: TATTAGGAGCGGCGAAACCC (test DNA bp 4030-4049)
 
 (https://www.ncbi.nlm.nih.gov/tools/primer-blast/primertool.cgi?ctg_time=1548847000&job_key=wsgdUfNn_s_Z9W7wY5BKwhmLW_A0mEDtNQ, primer pair 1)
 
@@ -61,7 +61,9 @@ This suggests that the purpose of the study is to determine whether the insertio
 
 -Uptake of plasmids by host cells are detected by conferred ampicillin resistance.
 
--Transformed host cells can be grown on medium carrying allolactose to allow negative induction of the promoter through allolactose binding its repressor lacI.
+-In absence of allolactose, there is no expression of any fluorescent protein, no reporter gene.
+
+-Transformed host cells grown on medium carrying allolactose to allow negative induction of the promoter through allolactose binding its repressor lacI.
 
 -The cells can then be observed using fluorescence microscopy at a range of wavelengths.
 
