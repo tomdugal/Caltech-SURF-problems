@@ -54,7 +54,11 @@ This suggests that the purpose of the study is to determine whether the insertio
 Therefore:
 
 -Uptake of plasmids by host cells are detected by conferred ampicillin resistance.
+
 -Transformed host cells can be grown on medium carrying allolactose to allow negative induction of the promoter through allolactose binding its repressor lacI.
+
 -The cells can then be observed using fluorescence microscopy at a range of wavelengths.
+
 -Levels of excitation of any fluorophores can be detected over the range of wavelengths and, given the differing excitation and emission maxima of sfGRP and mRFP1, their presence or absence in the cells can be concluded by plotting the results.
+
 -It would be expected that excitation representative of both sfGFP and mRFP1 would be recorded in the control plasmid, since there is no termination sequence preventing continued transcription/translation from the promoter, but only excitation representative of mRFP1 in the test plasmid, since the terminator stem-loop sequence should prevent progression to the sfGFP orf. 
