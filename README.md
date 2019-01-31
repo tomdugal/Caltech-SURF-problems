@@ -47,6 +47,10 @@ Anneal at 68 degrees celsius.
 
 The sequence of the reverse primer includes significant sections which lie within the insert in the 'test DNA'. As such it will be unable to bind the control DNA plasmid. This insert-specific colony PCR will mean that product will only be seen from the test DNA with the insert giving a clear 'yes or no' test to distinguish them.
 
+#### iv(b). Specify the primers you will use to sequence verify your whole plasmid.
+
+I was unsure about this question. Given that both plasmids are ~5.3kb in length and Sanger sequencing read length is typically 500-600bp I imagine that you would need multiple primer binding sites spread equally around the plasmid but I wasn't sure how to go about this.
+
 ### v. Use the annotated plasmid map to figure out what you are studying or testing.
 
 The control and test plasmids, both based upon a pBR322 cloning vector backbone, are identical in sequence other than a sequence insert in the test plasmid at base pairs 4002-4041. Within this insert (bp 4008-4035) is a stem-loop terminator sequence. 
