@@ -32,6 +32,8 @@ AATTGTGAGC  GGATAACAATT
 
 This suggests that the promoter is a negative inducible promoter, regularly bound and repressed by lacI but induced in the presence of allolactose which binds lacI and prevents it binding the promoter.
 
+nb. B0010, another biobrick (http://parts.igem.org/Part:BBa_B0010), a terminator, is also found in both plasmids at bp 5119-5194.
+
 ### iv. Design primers which will be used to distinguish your plasmids via colony PCR.
 
 Sequence (5'->3')
